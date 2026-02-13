@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align:center; background: pink; font-family:'Courier New', Courier, monospace">
+
+  <p id="msg" style="display:none; color: red; font-size: 100px; font-weight: 200;">Happy Valentine's Day! 💖</p>
+  
+  <button id="btn" onclick="love()" style="padding: 20px; font-size: 30px;font-style: italic; cursor: pointer; border-radius: 50px; border: none;">
+    Click Me! 🌹
+  </button>
+
+  <script>
+    function love(){
+      document.getElementById('btn').style.display = 'none';
+      const msg = document.getElementById('msg');
+      msg.style.display = 'block';
+      }
+  </script>
+
+</body>
+</html>
